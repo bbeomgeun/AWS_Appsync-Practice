@@ -1,0 +1,18 @@
+projects:
+  My AppSync AppTest:
+    schemaPath: app/src/main/graphql/schema.json
+    includes:
+      - app/src/main/graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: ''
+        generatedFileName: ''
+        docsFilePath: app/src/main/graphql/com/amazonaws/amplify/generated/graphql
+        region: ap-northeast-2
+        apiId: tseejl2mrjbz5oudezhrdoo7tq
+        maxDepth: 3
+extensions:
+  amplify:
+    version: 3

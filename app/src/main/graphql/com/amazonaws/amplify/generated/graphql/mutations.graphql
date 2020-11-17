@@ -1,0 +1,19 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateWeakInfo($input: CreateWeakInfoInput!) {
+  createWeakInfo(input: $input) {
+    contact
+    weakNum
+  }
+}
+mutation UpdateWeakInfo($input: UpdateWeakInfoInput!) {
+  updateWeakInfo(input: $input) {
+    contact
+    weakNum
+  }
+}
+mutation DeleteWeakInfo($input: DeleteWeakInfoInput!) {
+  deleteWeakInfo(input: $input) {
+    contact
+    weakNum
+  }
+}

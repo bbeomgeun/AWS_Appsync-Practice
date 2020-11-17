@@ -1,0 +1,20 @@
+# this is an auto generated file. This will be overwritten
+query GetWeakInfo($contact: String!, $weakNum: Int!) {
+  getWeakInfo(contact: $contact, weakNum: $weakNum) {
+    contact
+    weakNum
+  }
+}
+query ListWeakInfos(
+  $filter: TableWeakInfoFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listWeakInfos(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      contact
+      weakNum
+    }
+    nextToken
+  }
+}
